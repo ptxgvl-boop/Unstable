@@ -1,5 +1,3 @@
-
-
 Players = game:GetService('Players')
 LocalPlayer = Players.LocalPlayer
 StarterGui = game:GetService('StarterGui')
