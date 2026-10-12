@@ -12945,7 +12945,6 @@ function LoadFriendsIntoWhitelist()
         end
 
         local done = pages.IsFinished
-
         if not done then
             pages:AdvanceToNextPageAsync()
         else
