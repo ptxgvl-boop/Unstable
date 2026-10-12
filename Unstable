@@ -27877,7 +27877,7 @@ AppearanceGroup:AddDropdown('DPIScale', {
         Library:SetDPIScale(tonumber(v:gsub('%%', '')))
     end,
 })
-ThemeManager:SetLibrary(Libr        ary)
+ThemeManager:SetLibrary(Library)
 SaveManager:SetLibrary(Library)
 SaveManager:IgnoreThemeSettings()
 SaveManager:SetIgnoreIndexes({
